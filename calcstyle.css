@@ -1,0 +1,82 @@
+body{
+  background-color: black;
+}
+.main{
+  margin-left: 580px;
+  align-items: center;
+  justify-content: center;
+  width : 500px;
+}
+
+.heading{
+  justify-content : center;
+  text-align: center;
+  background-color: gray;
+  height: 100px;
+}
+
+.body1{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  background-color: white;
+  height: 100px;
+}
+.body2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 90px;
+}
+.input1{
+   width : 300px;
+   height: 60px;
+}
+.input2{
+  width : 300px;
+  height: 60px;
+}
+.body3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 120px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  height: 100px;
+
+}
+.submit{
+  background-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  transform: background-color 2s;
+}
+.submit:hover{
+  background-color: rgb(78, 76, 76);
+}
+
+#operators{
+  margin-left: 10px;
+  width: 190px;
+  height: 40px;
+}
+.para{
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 40px;
+  font-style: Comic Sans MS;
+}

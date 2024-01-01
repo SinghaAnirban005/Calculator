@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+<title>Calculator</title>
+
+<link rel = "stylesheet" href = "calcstyle.css">    
+  </head>
+
+  <body>
+<div class = "main">
+  <div class = "heading"><p class = "para">RESULT</p></div>
+
+<div class = "body1">
+  <p>Select Operator</p> <select name = "operators" id = "operators">
+    <option value = "addition">+</option>
+    <option value = "subtraction">-</option>
+    <option value = "multiplication">*</option>
+    <option value = "Division">/</option>
+  </select>
+</div>
+
+  <div class = "body2">
+  <input class = "input1" type = "number" placeholder="Enter number 1">
+</div>
+
+<div class = "body3">
+  <input class = "input2" type = "number" placeholder="Enter number 2">
+</div>
+  
+<div class = "footer">
+  <button class = "submit">SUBMIT</button>
+</div>
+ 
+</div>
+
+<script src = "calcjs.js"></script>
+  </body>
+</html>
